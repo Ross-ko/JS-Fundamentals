@@ -38,7 +38,6 @@ function includes(arr, element) {
         if (curEl === element) {
             return true;
         }
-
     }
 
     return false;
