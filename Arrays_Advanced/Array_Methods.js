@@ -38,7 +38,6 @@ function includes(arr, element) {
         if (curEl === element) {
             return true;
         }
-
     }
 
     return false;
@@ -193,7 +192,7 @@ function bubbleSort(arr) {
 
         for (let j = 0; j < arr.length - 1 - i; j++) {
 
-            if (compare(arr[j], arr[j + 1])) {                                  /* more nested function... XD*/
+            if (compare(arr[j], arr[j + 1])) {                                  /* more nested functions... XD*/
                 
                 swap(arr, j, j + 1);
 
