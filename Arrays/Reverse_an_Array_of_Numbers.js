@@ -13,6 +13,6 @@ function reverseAnArrayOfNumbers(num, arr) {
     console.log(arr.slice(0, num).reverse().join(' ')); - one line salution
 */
 }
-reverseAnArrayOfNumbers(3, [10,20,30,40]);
+reverseAnArrayOfNumbers(3, [10, 20, 30, 40]);
 console.log('-------------------------------------------------------------------------');
 reverseAnArrayOfNumbers(4, [-1, 20, 99, 5]);

@@ -6,7 +6,7 @@ function processOddNumbers(arr) {
 
         if (i % 2 !== 0) {
 
-            result.push(arr[i])
+            result.push(arr[i]);
 
         }
     }
@@ -20,4 +20,3 @@ function processOddNumbers(arr) {
 processOddNumbers([10, 15, 20, 25]);
 console.log('---------------------------------------------------------------------------------------');
 processOddNumbers([3, 0, 10, 4, 7, 3]);
-
