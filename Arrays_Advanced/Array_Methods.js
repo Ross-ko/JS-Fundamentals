@@ -85,7 +85,7 @@ function slice(arr, start, end) {
     return result;
 }
 console.log('slice method');
-console.log(slice([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 2, 5)); /*from index 2 to 5 (not included)*/
+console.log(slice([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 2, 5)); /*from index 2 to 5 (5 not included)*/
 console.log('---------------------------------------------------------------------------------------------------------------------------------------------------------------------');
 
 function splice() {                             
