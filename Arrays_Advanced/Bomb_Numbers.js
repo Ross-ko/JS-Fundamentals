@@ -8,7 +8,7 @@ function bombNumbers(arr, bombAndPower) {
         
         if (arr[i] == bomb) {
 
-            arr.splice(i - power, power * 2 + 1);
+            arr.splice(Math.max(0, i - power), power * 2 + 1, 0);
 
         }
     }
