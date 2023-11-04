@@ -13,18 +13,32 @@ let person = { name: 'Rosen',
                 }
             };
 for (let key of Object.keys(person)) {
-    // console.log(`${key}: ${person[key]}`);
+     console.log(`${key}: ${person[key]}`);
 };
+
+console.log('=================================================================================================================================');
+
 for (let key in person) {                               /* for-in loop is shorter version of For-of loop throu keys */
-    // console.log(`${key}: ${person[key]}`);
+     console.log(`${key}: ${person[key]}`);
 };
+
+console.log('=================================================================================================================================');
+
 for (let value of Object.values(person)) {
-    // console.log(value);
+     console.log(value);
 };
+
+console.log('=================================================================================================================================');
+
 for (let [key, value]/*entries*/ of Object.entries(person)) {
-    // console.log(`${key} -> ${value}`);
+     console.log(`${key} -> ${value}`);
 }
+
+console.log('=================================================================================================================================');
  
+console.log(person);
+
+console.log('=================================================================================================================================');
 
 let otherPerson = {};
 
@@ -34,6 +48,10 @@ otherPerson.height = 167;
 otherPerson.hairColour = 'Blond';
 otherPerson['lastName'] = 'Benova';
 otherPerson.sayHello = () => console.log('Hi, people');
+
+console.log(otherPerson);
+
+console.log('=================================================================================================================================');
 
 class Dog {
     constructor (name) {
