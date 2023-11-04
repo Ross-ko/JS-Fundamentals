@@ -8,8 +8,11 @@ function inventory(data) {
         let heroObj = {name: hero[0], level: Number(hero[1])};
 
         if (hero.length > 2) {
+
             for (i = 2; i < hero.length; i++) {
+
                 heroObj['items'] = hero[i];
+                
             }
         }
     
@@ -20,9 +23,11 @@ function inventory(data) {
     herosData.sort((a, b) => a.level - b.level);
 
     for (let hero of herosData) {
+
         console.log(`Hero: ${hero.name}`);
         console.log(`level => ${hero.level}`);
         console.log(`items => ${hero.items}`);
+
     }
 }
 
