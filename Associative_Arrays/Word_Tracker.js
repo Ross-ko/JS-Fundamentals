@@ -24,4 +24,4 @@ wordTracker([
     'to', 'count', 'the', 'occurrences', 'of',
     'the', 'words', 'this', 'and', 'sentence',
     'because', 'this', 'is', 'your', 'task'
-    ]);
+]);

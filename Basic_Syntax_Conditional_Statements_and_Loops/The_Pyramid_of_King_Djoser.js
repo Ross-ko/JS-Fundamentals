@@ -1,4 +1,4 @@
-function thePyramidOfKingDjoser(base, increment ) {
+function thePyramidOfKingDjoser(base, increment) {
     
     let stone = 0;
     let marble = 0;
