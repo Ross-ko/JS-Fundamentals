@@ -16,13 +16,12 @@ function cardGame(data) {
         }
 
     }
-    
-    let entries = Object.entries(playersHands);
 
-    for (let [name, cards] of entries) {
+    for (let [name, cards] of Object.entries(playersHands)) {
 
         let withoutDuplicates = new Set(cards);
         let deckScore = 0;
+        console.log(withoutDuplicates);
 
         for (let card of withoutDuplicates) {
 
