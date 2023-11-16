@@ -3,7 +3,7 @@ function objectsAndClassesExercise() {
 let person = { name: 'Rosen', 
                 age: 36, 
                 height: 177, 
-                hairColour: 'Black', 
+                hairColour: 'Black',
                 lastName: 'Ignatov',
                 sayHello: function () {
                     console.log('Hi, lads');

@@ -13,10 +13,10 @@ function oddOccurrences(data) {
     }
     for (let [key, value] of Object.entries(words)){
         if (value % 2 != 0) {
-            answer += key + ' '
+            answer.push(key);
         }
     }
-    console.log(answer);
+    console.log(answer.join(' '));
 }
 
 oddOccurrences('Java C# Php PHP Java PhP 3 C# 3 1 5 C#');
