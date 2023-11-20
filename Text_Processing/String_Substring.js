@@ -9,4 +9,4 @@ function stringSubstring(word, text) {
     }
 }
 
-stringSubstring('javascript', 'JavaScript is the best programming language')
+stringSubstring('javascript', 'JavaScript is the best programming language');
