@@ -5,7 +5,7 @@ function pascalCaseSplitter(data) {
     for (let char of data) {
         if (char == char.toUpperCase() && splitedWords.length == 0) {
             splitedWords += char;
-        } else if (char == char.toLowerCase(char)) {
+        } else if (char == char.toLowerCase()) {
             splitedWords += char;
         } else {
             splitedWords += ', ' + char;
