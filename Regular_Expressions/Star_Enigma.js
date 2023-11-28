@@ -44,6 +44,7 @@ function starEnigma(data) {
             }
         }
     }
+    
     attackedPlanet.sort((a, b)=> a.localeCompare(b));
     destroyedPlanet.sort((a, b)=> a.localeCompare(b));
 

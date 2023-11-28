@@ -1,6 +1,5 @@
-function passwordGen(data) {
+function passwordGen([word1, word2, wordForMask]) {
     
-    let [word1, word2, wordForMask] = data;
     let password = word1 + word2;
     let matrix = ['a', 'e', 'i', 'o', 'u'];
     let indx = 0;
