@@ -17,7 +17,7 @@ function problemOne(data) {
             let subStr = command[1];
 
             if (myStr.includes(subStr)) {
-                console.log(`True`);
+                console.log('True');
             } else {
                 console.log('False');
             }
